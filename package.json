@@ -1,14 +1,14 @@
 {
-  "name": "sign-off-action",
+  "name": "slack-post-action",
   "version": "0.0.1",
-  "description": "Github Action that handles a Release Candidate or Hotfix sign off.",
+  "description": "Github Action that posts a message to a Slack Webhook URL.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/loopsocial/sign-off-action.git"
+    "url": "git+https://github.com/loopsocial/slack-post-action.git"
   },
   "keywords": [
     "github",
@@ -19,9 +19,9 @@
   "author": "Deric Walintukan <deric@fireworkhq.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/loopsocial/sign-off-action/issues"
+    "url": "https://github.com/loopsocial/slack-post-action/issues"
   },
-  "homepage": "https://github.com/loopsocial/sign-off-action#readme",
+  "homepage": "https://github.com/loopsocial/slack-post-action#readme",
   "dependencies": {
     "@actions/core": "^1.6.0",
     "@actions/github": "^5.0.0",
