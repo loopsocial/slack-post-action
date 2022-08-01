@@ -10,6 +10,14 @@ Github Action that handles the following:
 
 (Required) URL of the Slack webhook to send the message to.
 
+### `slack-message-header`
+
+(Required) Slack message header.
+
+### `slack-message-body`
+
+(Required) Slack message body.
+
 ## Example Usage
 
 ```yaml
@@ -29,4 +37,6 @@ jobs:
         uses: loopsocial/slack-post-action@v1.0.0
         with:
           slack-webhook-url: ${{ secrets.SLACK_WEBHOOK_URL }}
+          slack-message-header: "Hello"
+          slack-message-body: "World"
 ```
